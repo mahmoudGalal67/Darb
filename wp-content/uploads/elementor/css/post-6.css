@@ -1,0 +1,125 @@
+.elementor-kit-6 {
+  --e-global-color-primary: #6ec1e4;
+  --e-global-color-secondary: #54595f;
+  --e-global-color-text: #7a7a7a;
+  --e-global-color-accent: #61ce70;
+  --e-global-color-kadence1: #01d3cc;
+  --e-global-color-kadence2: #00dfc4;
+  --e-global-color-kadence3: #ffffff;
+  --e-global-color-kadence4: #ffffff;
+  --e-global-color-kadence5: #ffffff;
+  --e-global-color-kadence6: #ffffff;
+  --e-global-color-kadence7: #020713;
+  --e-global-color-kadence8: #020713;
+  --e-global-color-kadence9: #020713;
+  --e-global-typography-primary-font-family: "Roboto";
+  --e-global-typography-primary-font-weight: 600;
+  --e-global-typography-secondary-font-family: "Roboto Slab";
+  --e-global-typography-secondary-font-weight: 400;
+  --e-global-typography-text-font-family: "Roboto";
+  --e-global-typography-text-font-weight: 400;
+  --e-global-typography-accent-font-family: "Roboto";
+  --e-global-typography-accent-font-weight: 500;
+  font-family: "bc arabic", Sans-serif;
+  font-size: 28px;
+}
+
+.elementor-kit-6.el-is-editing {
+  --global-palette1: #01d3cc;
+  --global-palette2: #00dfc4;
+  --global-palette3: #ffffff;
+  --global-palette4: #ffffff;
+  --global-palette5: #ffffff;
+  --global-palette6: #ffffff;
+  --global-palette7: #020713;
+  --global-palette8: #020713;
+  --global-palette9: #020713;
+}
+
+.elementor-kit-6 h1 {
+  font-family: "bc arabic", Sans-serif;
+  font-size: 68px;
+  font-weight: 800;
+}
+
+.elementor-kit-6 h2 {
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+.elementor-kit-6 h3 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.elementor-section.elementor-section-boxed > .elementor-container {
+  max-width: 1380px;
+}
+
+.e-con {
+  --container-max-width: 1380px;
+}
+
+.elementor-widget:not(:last-child) {
+  margin-block-end: 20px;
+}
+
+.elementor-element {
+  --widgets-spacing: 20px 20px;
+}
+
+ {
+}
+
+h1.entry-title {
+  display: var(--page-title-display);
+}
+
+@media (max-width: 1024px) {
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1024px;
+  }
+
+  .e-con {
+    --container-max-width: 1024px;
+  }
+}
+
+@media (max-width: 767px) {
+  .elementor-kit-6 {
+    font-size: 16px;
+  }
+
+  .elementor-kit-6 a {
+    font-size: 15px;
+  }
+
+  .elementor-kit-6 h1 {
+    font-size: 28px;
+    line-height: 1.7em;
+  }
+
+  .elementor-kit-6 h2 {
+    font-size: 21px;
+    line-height: 1.5em;
+  }
+
+  .elementor-kit-6 h3 {
+    font-size: 19px;
+    line-height: 1.4em;
+  }
+
+  .elementor-kit-6 h4 {
+    font-size: 18px;
+  }
+
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 767px;
+  }
+
+  .e-con {
+    --container-max-width: 767px;
+  }
+}
